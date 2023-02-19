@@ -1,0 +1,39 @@
+#involve<stdio.h>
+
+num principle(){
+    num a = 5 
+    num i = 0
+    num n = 10
+    dotnum b = 8
+    num c = 0
+    c = a+n
+    output(c)
+     c = a-n
+     output(c)
+     c = a/n
+     output(c)
+     c = a*n
+     output(c)
+
+    output(a)
+    for:( i=0;i<n;i++){
+        output(a)
+        a++
+    }
+    scan:(i)
+    fi:(i>n){
+            output(a)
+        }
+        else:{
+         num s = 9
+        }
+
+while:(a>i){
+    output(n)
+}
+
+dotnum func(num u=30){
+    output(u)
+}
+        
+}
