@@ -1,5 +1,4 @@
-# compiler_project_final
-🧩 Mini Compiler Front-End
+# Mini Compiler Front-End
 
 This project implements a mini compiler front-end for a simple custom programming language using Lex (Flex) and Yacc (Bison) in C.
 
@@ -7,7 +6,7 @@ The system performs lexical analysis and syntax parsing for structured programs 
 
 It was developed as part of a Compiler Design course to demonstrate core concepts of language processing and parsing.
 
-✨ Features
+# Features
 
 Header inclusion detection
 
@@ -27,7 +26,7 @@ Comment detection
 
 Syntax validation using grammar rules
 
-⚙️ Implementation
+# Implementation
 
 Lexical analysis implemented using Flex
 
@@ -47,7 +46,7 @@ lex.yy.c, fp.tab.c — generated source files
 
 Executables generated after compilation
 
-▶️ How It Works
+# How It Works
 
 The lexical analyzer scans the input program and generates tokens.
 
@@ -57,6 +56,6 @@ Semantic actions execute recognized constructs.
 
 The program outputs results and detected structures.
 
-🎯 Purpose
+# Purpose
 
 This project demonstrates fundamental concepts of compiler construction, including tokenization, parsing, and grammar-driven language processing — foundational ideas relevant to NLP and language modeling research.
